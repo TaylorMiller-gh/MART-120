@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> Contact Us </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Style used to create bottom alignment for links. -->
+    <style>
+      #bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <!-- Email address and password are created using bootstrap form-group class -->
+      <div class="form-group">
+        <!-- A Label is used first as a prompt -->
+        <label for="email">
+          Email address
+        </label>
+        <!-- Bootstrap form input and id -->
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="password">
+          Password
+        </label>
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <br/>
+
+      <!-- 'Yes' and 'No' radio buttons are made using the form check bootstrap class. -->
+      <h4>Do you accept the terms of agreement?</h4>
+
+      <div class="form-check">
+        <!-- In this case the label follows the input button horizontally -->
+        <input class="form-check-input" type="radio" name="radioYes" id="radioYes" value="option1">
+          <label class="form-check-label" for="radioYes">
+            Yes
+          </label>
+      </div><br/>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="radioNo" id="radioNo" value="option2">
+          <label class="form-check-label" for="radioNo">
+            No
+          </label>
+      </div><br/>
+
+      <!-- Simple bootstrap button used for 'submit.'-->
+      <button type="button" class="btn btn-secondary btn-sm">Submit</button>
+    </form>
+
+    <!--Link buttons are aligned to the bottom of the page -->
+    <div id="bottom">
+      <h3><a href="page1.html"> Home Page </a>
+      <a href="page2.html"> Second Page </a></h3>
+    </div>
+
+  </body>
+
+</html>

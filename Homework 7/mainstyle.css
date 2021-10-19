@@ -1,0 +1,25 @@
+span {
+  font-style: italic;
+}
+p.navyBlue {
+  color: #000080;
+  font-family: serif;
+}
+p.darkRed {
+  color: #8B0000;
+  font-family: serif;
+}
+h3.darkRed {
+  color: #8B0000;
+  font-family: serif;
+}
+#blueBold {
+  color: #000080;
+  font-family: arial;
+  font-style: bold;
+}
+#blueEmphasis {
+  color: #000080;
+  font-family: arial;
+  font-style: italic;
+}
